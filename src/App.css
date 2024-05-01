@@ -1,0 +1,14 @@
+.navbar{
+  box-shadow: 0 0.1px 3px;
+  background-color: var(--secondary-backgroundColor);
+}
+.navbar ul{
+  margin-left: 1rem;
+}
+.navbar ul li a,.navbar a{
+  margin-left: 1.2rem;
+  font-weight: 500;
+}
+.active{
+  font-weight: bold!important;
+}
