@@ -10,7 +10,7 @@ export const action = async({request})=>{
   const data = Object.fromEntries(formData);
 
   try {
-    await axios.post("lookscout-server-three.vercel.app/contact", data);
+    await axios.post("https://lookscout-server-nine.vercel.app/contact", data);
     toast.success("Contact sent successfully");
     return "/contacts";
   } catch (error) {
