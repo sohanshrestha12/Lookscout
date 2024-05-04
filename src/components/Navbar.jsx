@@ -44,8 +44,8 @@ const Navbar = (props) => {
               </NavLink>
             </li>
           </ul>
-          <div className="d-flex align-items-center gap-4">
-            <a className="text-primary text-decoration-none">Sign Up</a>
+          <div className="d-flex align-items-center gap-3">
+            <a style={{cursor:"pointer"}} className="text-primary text-decoration-none">Sign Up</a>
             <a className="btn btn-primary">Log In</a>
           </div>
         </div>

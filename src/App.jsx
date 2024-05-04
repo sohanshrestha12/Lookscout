@@ -3,6 +3,7 @@ import './App.css';
 import AppLayout from "./components/AppLayout";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import { action as ContactAction } from "./components/ContactForm";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
       },
       {
         path:"contacts",
-        element:<Contact/>
+        element:<Contact/>,
+        action:ContactAction,
       }
     ]
   },

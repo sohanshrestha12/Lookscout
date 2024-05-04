@@ -1,14 +1,49 @@
-.navbar{
+.navbar {
   box-shadow: 0 0.1px 3px;
   background-color: var(--secondary-backgroundColor);
 }
-.navbar ul{
+
+.navbar ul {
   margin-left: 1rem;
 }
-.navbar ul li a,.navbar a{
+
+.navbar ul li a,
+.navbar a {
   margin-left: 1.2rem;
   font-weight: 500;
 }
-.active{
-  font-weight: bold!important;
+
+.active {
+  font-weight: bold !important;
+}
+
+.features img {
+  margin-bottom: 0.5rem;
+  width: 48px;
+}
+
+.faq .faq_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Contact_form input::placeholder,textarea::placeholder{
+  color: var(--text-color);
+}
+.Contact_form textarea:focus{
+    border: none;
+     box-shadow:none;
+     outline: none;
+}
+.Contact_form textarea{
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.Contact_form input[type=number]::-webkit-inner-spin-button,
+.Contact_forminput[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
